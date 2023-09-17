@@ -1,0 +1,58 @@
+<resources>
+    <string name="add_new_event">Add New Event</string>
+    <string name="adentro">felicidades pudiste entrar</string>
+    <string name="app_name">ReminderPal_AndroidProj_Luis2022</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="date">Date</string>
+    <string name="days_left">Days Left</string>
+    <string name="detail">Detail</string>
+    <string name="enter">Enter</string>
+    <string name="enter_a_new_password">Enter a new password</string>
+    <string name="enter_a_password">Enter a password</string>
+    <string name="enter_user_name">Enter user name</string>
+    <string name="event_type">Event Type</string>
+    <string name="event_detail">Event Detail</string>
+    <string name="hola_paisa">Hola paisano es un grato placer saludarlo</string>
+    <string name="here_days_left">Here days left</string>
+    <string name="imageregister">ImageRegister</string>
+    <string name="login">LOGIN</string>
+    <string name="login_image">Login image</string>
+    <string name="main_text">Hello, Reminder Pal</string>
+    <string name="main_image">MainImage</string>
+    <string name="nada">Nada que hacer</string>
+    <string name="new_event_screen">New Event Screen</string>
+    <string name="password">Password</string>
+    <string name="register">New User</string>
+    <string name="register_screen">New User Screen</string>
+    <string name="reminder_pal">Reminder Pal</string>
+    <string name="reminder_screen">Reminder Screen</string>
+    <string name="remindimg">RemindImg</string>
+    <string name="submit">Submit</string>
+    <string name="test">Test</string>
+    <string name="time">Time</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="name">Name</string>
+    <string name="id">ID:</string>
+    <string name="item">Item:</string>
+    <string name="icon">Icon:</string>
+    <string name="time2">Time:</string>
+    <string name="date2">Date:</string>
+    <string name="event2">Event:</string>
+    <string name="todo2">TODO</string>
+    <string name="user">User</string>
+    <string name="type">Type</string>
+    <string name="time1">Time</string>
+    <string name="date1">Date</string>
+    <string name="detail1">Detail</string>
+    <string name="delete">Delete</string>
+    <string-array name="event_type">
+        <item>Select an event</item>
+        <item>Birthday</item>
+        <item>Holly Day</item>
+        <item>Special Occasion</item>
+        <item>Company Event</item>
+        <item>Project Deadline</item>
+    </string-array>
+</resources>

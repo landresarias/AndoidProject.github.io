@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".NewEventActivity">
+
+    <Spinner
+        android:id="@+id/sp_eventtype"
+        android:layout_width="299dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/button_rounded"
+        android:labelFor="@id/sp_eventtype"
+        android:paddingStart="15dp"
+        android:paddingEnd="0dp"
+        android:autofillHints="Select an item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idNewEventText"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:targetApi="m" />
+
+    <TextView
+        android:id="@+id/idNewEventText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/new_event_screen"
+        android:textColor="#FBD9D9"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_detail"
+        android:layout_width="299dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:background="@drawable/button_rounded"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/detail1"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="0dp"
+        android:textColorHint="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_eventtype"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="301dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:autofillHints=""
+        android:background="@drawable/button_rounded"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/date1"
+        android:inputType="date"
+        android:paddingStart="15dp"
+        android:paddingEnd="0dp"
+        android:textColorHint="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_detail"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="302dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:background="@drawable/button_rounded"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/time1"
+        android:inputType="time"
+        android:labelFor="@id/et_time"
+        android:paddingStart="15dp"
+        android:paddingEnd="0dp"
+        android:textColorHint="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_date"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/bt_submitevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounder_button"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_time" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--android:entries="@array/event_type"-->

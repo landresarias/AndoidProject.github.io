@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/landr/Documents/SoftwareDeveloper_Luis/Android_2022/Android_Test/ReminderPal_AndroidProj_Luis2022/app/src/main/res/drawable/button_rounded.xml" value="0.202" />
+        <entry key="..\:/Users/landr/Documents/SoftwareDeveloper_Luis/Android_2022/Android_Test/ReminderPal_AndroidProj_Luis2022/app/src/main/res/drawable/rounder_utton.xml" value="0.281" />
+        <entry key="..\:/Users/landr/Documents/SoftwareDeveloper_Luis/Android_2022/Android_Test/ReminderPal_AndroidProj_Luis2022/app/src/main/res/layout/activity_display_message.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/landr/Documents/SoftwareDeveloper_Luis/Android_2022/Android_Test/ReminderPal_AndroidProj_Luis2022/app/src/main/res/layout/activity_login.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/landr/Documents/SoftwareDeveloper_Luis/Android_2022/Android_Test/ReminderPal_AndroidProj_Luis2022/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/landr/Documents/SoftwareDeveloper_Luis/Android_2022/Android_Test/ReminderPal_AndroidProj_Luis2022/app/src/main/res/layout/activity_new_event.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/landr/Documents/SoftwareDeveloper_Luis/Android_2022/Android_Test/ReminderPal_AndroidProj_Luis2022/app/src/main/res/layout/activity_register.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/landr/Documents/SoftwareDeveloper_Luis/Android_2022/Android_Test/ReminderPal_AndroidProj_Luis2022/app/src/main/res/layout/activity_reminder.xml" value="0.34739583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

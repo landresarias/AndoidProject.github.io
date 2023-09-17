@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo5"
+    tools:context=".ReminderActivity">
+
+    <TextView
+        android:id="@+id/IdTitleReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/reminder_screen"
+        android:textColor="#ddd"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idTypeReminder"
+        android:layout_width="271dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="40dp"
+        android:background="#ddd"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/event_type"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImgReminder" />
+
+    <TextView
+        android:id="@+id/idDateReminder"
+        android:layout_width="148dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="36dp"
+        android:background="#ddd"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/date"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idDetailReminder" />
+
+    <TextView
+        android:id="@+id/idTimeReminder"
+        android:layout_width="97dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:background="#ddd"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/time"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/idDateReminder"
+        app:layout_constraintTop_toBottomOf="@+id/idDetailReminder" />
+
+    <TextView
+        android:id="@+id/idDaysLeft"
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:background="#ddd"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/days_left"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idDateReminder" />
+
+    <TextView
+        android:id="@+id/idDaysLeft2"
+        android:layout_width="158dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#ddd"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/here_days_left"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/idDaysLeft"
+        app:layout_constraintTop_toBottomOf="@+id/idTimeReminder" />
+
+    <TextView
+        android:id="@+id/idDetailReminder"
+        android:layout_width="275dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:background="#ddd"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/event_detail"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTypeReminder"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/idImgReminder"
+        android:layout_width="73dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/remindimg"
+        android:src="@drawable/reminder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdTitleReminder"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/idNewEvButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="@string/add_new_event"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idDaysLeft2"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
